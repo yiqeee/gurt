@@ -5,142 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gurt Dictionary</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Gurt Dictionary</h1>
+    <div class="app-container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-book-open"></i>
+                <h1>Gurt Dictionary</h1>
+            </div>
+            <p class="tagline">mark sybau</p>
+        </header>
         
         <div class="search-container">
-            <input type="text" id="searchInput" class="search-input" placeholder="Namen oder Bedeutung suchen...">
+            <div class="search-wrapper">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="searchInput" class="search-input" placeholder="Namen oder Bedeutung suchen...">
+                <button id="clearSearch" class="clear-button"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="search-stats">
+                <span id="resultCount">30</span> Einträge gefunden
+            </div>
         </div>
         
-        <table class="synonym-table" id="dictionaryTable">
-            <tr>
-                <td>kevin</td>
-                <td>bad</td>
-            </tr>
-            <tr>
-                <td>joel</td>
-                <td>good</td>
-            </tr>
-            <tr>
-                <td>james</td>
-                <td>mid</td>
-            </tr>
-            <tr>
-                <td>glerkin</td>
-                <td>annoying</td>
-            </tr>
-            <tr>
-                <td>samuel</td>
-                <td>real</td>
-            </tr>
-            <tr>
-                <td>ikiab</td>
-                <td>imma keep it a buck</td>
-            </tr>
-            <tr>
-                <td>owen</td>
-                <td>tuff</td>
-            </tr>
-            <tr>
-                <td>liam</td>
-                <td>sad</td>
-            </tr>
-            <tr>
-                <td>michael</td>
-                <td>boring</td>
-            </tr>
-            <tr>
-                <td>leo</td>
-                <td>crazy / insane</td>
-            </tr>
-            <tr>
-                <td>lebron</td>
-                <td>goated</td>
-            </tr>
-            <tr>
-                <td>john</td>
-                <td>okay ig</td>
-            </tr>
-            <tr>
-                <td>scott</td>
-                <td>difficult</td>
-            </tr>
-            <tr>
-                <td>noah</td>
-                <td>evil</td>
-            </tr>
-            <tr>
-                <td>anton</td>
-                <td>will not sybau</td>
-            </tr>
-            <tr>
-                <td>sybau</td>
-                <td>be quiet</td>
-            </tr>
-            <tr>
-                <td>josh</td>
-                <td>slow</td>
-            </tr>
-            <tr>
-                <td>joseph</td>
-                <td>chopped</td>
-            </tr>
-            <tr>
-                <td>albert</td>
-                <td>corny</td>
-            </tr>
-            <tr>
-                <td>gerald</td>
-                <td>old</td>
-            </tr>
-            <tr>
-                <td>david</td>
-                <td>ragebait / peak</td>
-            </tr>
-            <tr>
-                <td>charlie</td>
-                <td>cute</td>
-            </tr>
-            <tr>
-                <td>eric</td>
-                <td>mean</td>
-            </tr>
-            <tr>
-                <td>jayden</td>
-                <td>spectacular</td>
-            </tr>
-            <tr>
-                <td>harry</td>
-                <td>scary</td>
-            </tr>
-            <tr>
-                <td>daquavious</td>
-                <td>illegal</td>
-            </tr>
-            <tr>
-                <td>R</td>
-                <td>unemployed</td>
-            </tr>
-            <tr>
-                <td>adrian</td>
-                <td>chaotic</td>
-            </tr>
-            <tr>
-                <td>peter</td>
-                <td>rude</td>
-            </tr>
-            <tr>
-                <td>zach</td>
-                <td>funny</td>
-            </tr>
-        </table>
-        <div id="noResults" class="no-results" style="display: none">
-            Keine Ergebnisse gefunden.
-        </div>
+        <main>
+            <div class="dictionary-container">
+                <div class="dictionary-list" id="dictionaryList">
+                    <!-- Entries will be generated by JavaScript -->
+                </div>
+                <div id="noResults" class="no-results">
+                    <i class="fas fa-search"></i>
+                    <p>Keine Ergebnisse gefunden.</p>
+                    <button id="resetSearch" class="reset-button">Suche zurücksetzen</button>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 Gurt Dictionary | <a href="#" class="theme-toggle" id="themeToggle"><i class="fas fa-moon"></i> Dark Mode</a></p>
+        </footer>
     </div>
-
+    
     <script src="script.js"></script>
 </body>
 </html>

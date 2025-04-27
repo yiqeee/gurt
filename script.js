@@ -30,7 +30,8 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "R", meaning: "unemployed" },
         { name: "adrian", meaning: "chaotic" },
         { name: "peter", meaning: "rude" },
-        { name: "zach", meaning: "funny" }
+        { name: "zach", meaning: "funny" },
+        { name: "Dr", meaning: "Druski" }
     ];
 
     // DOM Elements

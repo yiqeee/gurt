@@ -31,7 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "adrian", meaning: "chaotic" },
         { name: "peter", meaning: "rude" },
         { name: "zach", meaning: "funny" },
-        { name: "Dr", meaning: "Druski" }
+        { name: "Dr", meaning: "Druski" },
+        { name: "Giovanni", meaning: "anything that looks mid but is actually tuff" }
     ];
 
     // DOM Elements

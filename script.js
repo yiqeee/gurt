@@ -73,6 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "Bartholomew", meaning: "stinky" },
         { name: "Aiden", meaning: "Something mid like not kevin but not owen just in the middle" },
         { name: "Blerg", meaning: "Is so" },
+        { name: "K´", meaning: "not(...)" }
 
     ];
 

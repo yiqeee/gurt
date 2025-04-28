@@ -65,6 +65,14 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: ",", meaning: "comma" },
         { name: "hawk", meaning: "2 uhh" },
         { name: "calc", meaning: "calculator" },
+        { name: "sterling", meaning: "unknowingly dead" },
+        { name: "Ikhtggbihtpiwh", meaning: "I know how the game goes because I have to play it with humans" },
+        { name: "Rico", meaning: "really hot" },
+        { name: "Alex", meaning: "Lady Magnet" },
+        { name: "Phillip", meaning: "interesting" },
+        { name: "Bartholomew", meaning: "stinky" },
+        { name: "Aiden", meaning: "Something mid like not kevin but not owen just in the middle" },
+        { name: "Blerg", meaning: "Is so" },
 
     ];
 

@@ -35,7 +35,8 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "Giovanni", meaning: "anything that looks mid but is actually tuff" },
         { name: "ts", meaning: "this shit" },
         { name: "icl", meaning: "i cant lie" },
-        { name: "gurt", meaning: "yo" }
+        { name: "gurt", meaning: "yo" },
+        { name: "cl", meaning: "cant lie" }
     ];
 
     // DOM Elements

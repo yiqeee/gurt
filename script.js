@@ -32,7 +32,9 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "peter", meaning: "rude" },
         { name: "zach", meaning: "funny" },
         { name: "Dr", meaning: "Druski" },
-        { name: "Giovanni", meaning: "anything that looks mid but is actually tuff" }
+        { name: "Giovanni", meaning: "anything that looks mid but is actually tuff" },
+        { name: "ts", meaning: "this shit" },
+        { name: "icl", meaning: "i cant lie" }
     ];
 
     // DOM Elements

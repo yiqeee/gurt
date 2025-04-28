@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "icl", meaning: "i cant lie" },
         { name: "gurt", meaning: "yo" },
         { name: "cl", meaning: "cant lie" },
-        { name: "mark", meaning: "sybau" }
+        { name: "atp", meaning: "at this point" }
     ];
 
     // DOM Elements
